@@ -1,0 +1,186 @@
+.form_wizard .header{
+    min-height: 80px;
+    background-color: skyblue
+}
+.form_wizard .header strong{
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-size: 30px
+}
+.form_wizard .header em{
+    font-weight: 500;
+    font-size: 13px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white
+}
+.form_wizard .header .login{
+    padding-top: 7px
+}
+.form_wizard .header .login label{
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white
+}
+.form_wizard .header .login input[type=text],
+.form_wizard .header .login input[type=password]
+{
+    padding-left: 10px
+}
+.form_wizard .header .login input::placeholder{
+    font-size: 13px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+}
+.form_wizard .header .social_media img{
+    height: 25px;
+    width: 25px;
+    margin-top: 8px;
+    margin-right: 5px 
+}
+.form_wizard .header .social_media{
+    padding-top: 10px;
+    text-align: right
+}
+.form_wizard .header .social_media strong{
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white
+}
+.wizard_header{
+    background-color: #404040;
+    border-top: #f7ae37 5px solid
+}
+.wizard_header .lst_steps{
+    padding: 0px;
+    list-style: none;
+    padding-top: 20px;
+}
+.wizard_header .lst_steps .item{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white;
+    padding-bottom: 5px;
+    cursor: pointer;
+    margin: auto;
+}
+.wizard_header .lst_steps .item strong{
+    display: block;
+    text-align: center
+}
+.wizard_header .lst_steps .item img{
+    float: top;
+    width: 50px;
+    height: 50px;
+}
+.form_wizard_content{
+    position: absolute;
+    top: 220px                 
+}
+.form_wizard_content > div > div{
+    background-color: white;
+    border: #d3d3d3 1px solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px
+}
+.form_wizard_item .header{
+    background-color: skyblue;
+    height: 38px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: #f4880a 5px solid
+}
+.form_wizard_item .header strong{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white;
+}
+.form_wizard_item .header > div:nth-child(2){
+    text-align: right;
+    padding-top: 2px;
+}
+.form_wizard_item .form_content{
+    padding: 20px
+}
+.form_wizard_item .form_content label{
+    font-weight: bold;
+    color: black;
+    font-size: 15px
+}
+.form_wizard_item .form_content .form-group > div{
+    display: inline-block
+}
+.form_wizard_item .form_content .form-control{
+    margin-top: 38px;
+    border: #f4880a 1px solid
+}
+.form_wizard_item .footer > div{
+    margin-left: 20px
+}
+.form_wizard_item .footer > div:nth-child(2) input{
+    width: 100px;
+    background-color: skyblue;
+    color: white;
+    font-weight: bold;
+}
+.form_wizard_item .footer > div:first-child input{
+    width: 100px;
+    background-color: white;
+    color: skyblue;
+    font-weight: bold;
+    text-decoration: underline
+}
+.wizard_header .lst_steps .item:nth-child(1){
+    background-color: #525252;
+    color: #f4880a;
+}
+@media(min-width: 900px){
+    .wizard_header{
+        height: 180px
+    }
+}
+@media(max-width: 900px){
+    .form_wizard .header .login input[type=text],
+    .form_wizard .header .login input[type=password]
+    {
+        margin-bottom: 10px
+    }
+    .form_wizard_content{
+        top: 520px
+    }
+    .form_wizard .header{
+        padding-bottom: 20px
+    }
+    .wizard_header .lst_steps .item{
+        margin-bottom: 10px
+    }
+}
